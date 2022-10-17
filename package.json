@@ -8,7 +8,7 @@
     "test:2": "vitest tests/triangle.test.js --globals --coverage --run --reporter verbose",
     "test:3": "vitest tests/rectangle.test.js --globals --coverage --run --reporter verbose",
     "test:4": "vitest tests/square.test.js --globals --coverage --run --reporter verbose",
-    "test:resistor": "vitest tests/thermometer.test.js --globals --coverage --run --reporter verbose",
+    "test:5": "vitest tests/thermometer.test.js --globals --coverage --run --reporter verbose",
     "test": "vitest --coverage --run --silent --globals ",
     "test:ui": "vitest --ui --globals"
   },
