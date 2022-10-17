@@ -1,7 +1,6 @@
-/* eslint-disable jest/no-disabled-tests */
+/* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 const { Triangle } = require('../src/triangle');
-
 
 test('Triangle', () => {
   const triangle = new Triangle([3, 4, 5]);
@@ -14,4 +13,7 @@ test('Triangle', () => {
   expect(t0.isValid()).toBe(false);
   const t1 = new Triangle([-3, 4, 5]);
   expect(t1.isValid()).toBe(false);
+
+  const t2 = new Triangle([3, 4, 5]);
+  expect(t2.count()).toBe(3);
 });

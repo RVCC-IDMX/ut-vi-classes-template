@@ -71,16 +71,6 @@ class Square extends Rectangle {
   getSide() {
     // write your code here
   }
-
-  /**
-   * @method area - return the area of the square
-   * @returns {number} the area of the square if
-   * the side length is a number > 0
-   * otherwise return 0
-   */
-  area() {
-    // write your code here
-  }
 }
 
 module.exports = {

@@ -1,4 +1,4 @@
-/* eslint-disable jest/no-disabled-tests */
+/* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 const { Square } = require('../src/square');
 
@@ -10,10 +10,12 @@ test('Square', () => {
   expect(square1.area()).toBe(144);
   expect(square1.getSide()).toBe(12);
   expect(square1.sayName()).toBe('Square');
+  expect(square1.count()).toBe(4);
   //
   const square2 = new Square(0);
   expect(typeof square2).toBe('object');
   expect(square2.perimeter()).toBe(0);
+  expect(square2.area()).toBe(0);
   expect(square2.isValid()).toBe(false);
 
   const square3 = new Square(-1);

@@ -1,4 +1,4 @@
-/* eslint-disable jest/no-disabled-tests */
+/* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 const { Polygon } = require('../src/polygon');
 
