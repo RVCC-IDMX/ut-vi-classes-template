@@ -79,7 +79,7 @@ If you want to run the tests with a UI, you can use the following command:
 
 ## Measuring Coverage
 
-Coverage reports will be placed in the coverage folder. To view, open index.html using Liver Server.
+Coverage reports will be placed in the coverage folder. To view, open index.html using Live Server.
 
 ---
 
