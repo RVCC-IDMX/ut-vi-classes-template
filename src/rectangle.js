@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 /* eslint-disable class-methods-use-this */
 /* eslint-disable constructor-super */
@@ -33,9 +34,11 @@
  * in this class to use with its methods - isValid() and area()
  */
 
+//  👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇
 /* --------------Important Step Below ------------ */
 // import the polygon class using the CommonJS require() function
-// See triangle.js for an example of how to import a file
+// https://nodejs.org/api/modules.html#modules-commonjs-modules
+// const { Polygon } = require('./polygon');
 
 /**
  * rectangle class

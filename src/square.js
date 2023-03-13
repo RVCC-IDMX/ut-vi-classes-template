@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 /* eslint-disable class-methods-use-this */
 /* eslint-disable constructor-super */
@@ -34,9 +35,11 @@
  * to use with its new method getSide()
  */
 
+//  👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇
 /* --------------Important Step Below ------------ */
-// import the Rectangle class using the CommonJS require() function
-// See triangle.js for an example of how to import a file
+// import the polygon class using the CommonJS require() function
+// https://nodejs.org/api/modules.html#modules-commonjs-modules
+// const { Polygon } = require('./polygon');
 
 /**
  * Square class
